@@ -1,0 +1,11 @@
+[package]
+name = "tokio-warden-restartable"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+
+[dependencies]
+tokio = { version = "1.48.0", features = ["rt"] }
+
+[dev-dependencies]
+tokio = { version = "1.48.0", features = ["rt", "rt-multi-thread", "sync", "time", "macros"] }
