@@ -3,6 +3,8 @@ name = "tokio-warden-restartable"
 version = "0.1.0"
 edition = "2024"
 rust-version = "1.85"
+license = "MPL-2.0"
+description = "A utility for creating auto-restarting tokio tasks"
 
 [dependencies]
 tokio = { version = "1.48.0", features = ["rt"] }
